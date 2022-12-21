@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Company Name | Contact</title>
+  </head>
+  <style>
+    .navbar-light {
+        box-shadow: 0px 2px 5px #777;
+    }
+
+    .t-bg {
+        background-color: rgba(0, 0, 0, 0.404);
+    }
+
+    .t-b {
+        background-color: rgba(0, 0, 0, 0.404);
+    }
+    .contact1-form {
+    width: 390px;
+}
+form {
+    display: block;
+}
+</style>
+  <body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./logo2.png.png" alt="logo" height="80vh"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Themes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Theme-1</a></li>
+                            <li><a class="dropdown-item" href="#">Theme-2</a></li>
+                            <li><a class="dropdown-item" href="#">Theme-3</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Other Themes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./contact.html">Contact us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+<section>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6 py-5 my-5 mx-4 bg-dark text-light rounded px-5">
+            <h2 class="pb-4 fw-bold">QUERY FORM:</h2>
+            <form class="row g-3 ">
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">NAME:</label>
+                    <input type="text" class="form-control transparent" id="inputAddress"
+                        placeholder="Enter Full Name">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email:</label>
+                    <input type="email" class="form-control transparent" id="inputEmail4"
+                        placeholder="absdgu@gmail.com">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">City:</label>
+                    <input type="password" class="form-control transparent" id="inputPassword4"
+                        placeholder="Karachi, Lahore, Islamabad">
+                </div>
+
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Address:</label>
+                    <input type="text" class="form-control transparent" id="inputAddress2"
+                        placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">DATE: <span><i
+                                class="fa-solid fa-calendar"></i></span></label>
+                    <input type="date" class="form-control transparent" id="inputCity">
+                </div>
+                <!-- <div class="col-md-4">
+                    <label for="inputState" class="form-label">Service:</label>
+                    <select id="inputState" class="form-select transparent">
+                        <option selected>Poor</option>
+                        <option>Satisfactory</option>
+                        <option>Good</option>
+                        <option>Excellent</option>
+                    </select>
+                </div> -->
+                <div class="col-md-2">
+                    <label for="inputState" class="form-label">Rate Us:</label>
+                    <select id="inputState" class="form-select transparent">
+                        <option selected>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input transparent border-solid border-2 border-white "
+                            type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Are you New To Our Website?
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary px-5 py-2">Submit</button>
+                </div>
+            </form>
+
+        </div>
+        <div class="col-3"></div>
+    </div>
+</section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
